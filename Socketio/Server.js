@@ -9,7 +9,9 @@ const server = http.createServer(app)
 
 const io = new Server(server, {
     cors: {
-        origin: "https://frontend-in9r1fbyz-raghavg18s-projects.vercel.app",
+        origin: ["https://frontend-in9r1fbyz-raghavg18s-projects.vercel.app",
+        "https://frontend-in9r1fbyz-raghavg18s-projects.vercel.app"],
+        credentials: true,
         methods: ["GET", "POST"],
     }
 });
