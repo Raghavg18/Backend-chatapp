@@ -9,7 +9,7 @@ const server = http.createServer(app)
 
 const io = new Server(server, {
     cors: {
-        origin: "http://localhost:4001",
+        origin: "https://frontend-in9r1fbyz-raghavg18s-projects.vercel.app",
         methods: ["GET", "POST"],
     }
 });
