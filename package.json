@@ -8,9 +8,9 @@
   "license": "ISC",
   "author": "Raghav",
   "type": "module",
-  "main": "index.js",
+  "main": "Index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node Index.js"
   },
   "dependencies": {
     "bcrypt": "^6.0.0",
